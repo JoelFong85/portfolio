@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joel Fong</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#portfolio-button-1").on("click", function() {
+                $("#portfolio").toggle(); // .fadeToggle() // .slideToggle()
+            });
+            $("#portfolio-button-2").on("click", function() {
+                $("#portfolio").toggle(); // .fadeToggle() // .slideToggle()
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+    <div class="main-container">
+        <div>
+            <img src="./assets/images/joelLogo_v2.png" alt="logo" title="Joel Fong" />
+        </div>
+        <div>
+            <h2>Full-stack developer who builds websites.</h2>
+            <h2>Muay thai practicioner in his free time.</h2>
+        </div>
+        <div class="divider"></div>
+        <hr>
+        <div class="divider"></div>
+        <div>
+            <div class="button-container">
+                <div class="small-button-container">
+                    <div class="row small-button-row">
+                        <a class="special-button" href="https://www.linkedin.com/in/joel-fong" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="row small-button-row">
+                        <a class="special-button" id="portfolio-button-1" href="#portfolio">Portfolio</a>
+                    </div>
+                    <div class="row small-button-row">
+                        <a class="special-button " href="https://github.com/JoelFong85 " target="_blank">Github</a>
+                    </div>
+                    <div class="row small-button-row">
+                        <a class="special-button " href="mailto:joelfong@gmail.com " target="_blank">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="large-button-container">
+                <a class="special-button mr-1" href="https://www.linkedin.com/in/joel-fong" target="_blank">LinkedIn</a>
+                <a class="special-button mr-1" id="portfolio-button-2" href="#portfolio">Portfolio</a>
+                <a class="special-button mr-1" href="https://github.com/JoelFong85 " target="_blank">Github</a>
+                <a class="special-button mr-1" href="mailto:joelfong@gmail.com " target="_blank">Email</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+        <h6>(Click to view)</h6>
+        <br>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://funds-solutions.com/" target="_blank">
+                        <img src="./assets/images/fundSolutions.png" class="d-block w-100" alt="...">
+                        <div class="caption-box">
+                            <h5>Fund Solutions</h5>
+                            <p>Financial broker providing loans for small and medium-sized enterprises. Functions include "Contact Us" and write ups on services.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.tiq.com.sg/" target="_blank">
+                        <img src="./assets/images/tiq.png" class="d-block w-100" alt="...">
+
+                        <div class="caption-box">
+                            <h5>Etiqa Insurance Direct Sales</h5>
+                            <p>Etiqa Insurance's page where customers can find out more about the different insurance products available, and make purchases.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.etiqa.com.sg/LoginPortal/#/" target="_blank">
+                        <img src="./assets/images/tiqconnect.png" class="d-block w-100" alt="...">
+
+                        <div class="caption-box">
+                            <h5>Etiqa Insurance Customer Portal</h5>
+                            <p>For Etiqa customers to perform self-servicing functions on their policies. Transactions include topping up investment accounts, or changing insurance coverage dates.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="emp.html" target="_blank">
+                        <img src="./assets/images/empereur.png" class="d-block w-100" alt="...">
+
+                        <div class="caption-box">
+                            <h5>Empereur Holdings</h5>
+                            <p>Empereur holdings is one of the largest suppliers of industrial sewing machines in Southeast Asia (Page no longer hosted)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+    </section>
+
+    <div class="main-container">
+    </div>
+
+
+</body>
+
+</html>
