@@ -83,6 +83,10 @@ html {
     position: static;
 }
 
+.description-header {
+    font-size: 30px;
+}
+
 .special-button {
     align-self: center;
     background-color: #fff;
@@ -153,6 +157,9 @@ html {
         max-width: 50%;
         max-height: 50%;
     }
+    .caption-box {
+        margin: 3% auto 0 auto;
+    }
 }
 
 @media only screen and (min-width: 2000px) {
@@ -160,5 +167,8 @@ html {
     .main-container img {
         max-width: 40%;
         max-height: 40%;
+    }
+    .caption-box {
+        margin: 2% auto 0 auto;
     }
 }
