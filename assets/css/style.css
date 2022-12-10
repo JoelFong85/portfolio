@@ -48,7 +48,7 @@ html {
 #portfolio {
     max-width: 80%;
     text-align: center;
-    margin: 5% auto 0 auto;
+    margin: 15% auto 0 auto;
     display: none;
     font-family: 'Ubuntu', sans-serif;
     color: #3C4048;
@@ -141,6 +141,10 @@ html {
         display: block;
     }
     .small-button-container {
+        display: none;
+    }
+    #portfolio {
+        margin: 5% auto 0 auto;
         display: none;
     }
 }
